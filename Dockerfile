@@ -4,7 +4,7 @@ ARG PRECOMPILED_ELIXIR="https://github.com/elixir-lang/elixir/releases/download/
 
 RUN apk add -U --no-cache \
     git build-base wget curl inotify-tools nodejs nodejs-npm \
-    bash unzip && \
+    bash unzip yarn && \
     npm install npm -g --no-progress
 
 ENV PATH "$PATH:./node_modules/.bin"
