@@ -1,4 +1,4 @@
-FROM erlang:22-alpine
+FROM erlang:22.1-alpine
 
 ARG PRECOMPILED_ELIXIR="https://github.com/elixir-lang/elixir/releases/download/v1.9.0/Precompiled.zip"
 
