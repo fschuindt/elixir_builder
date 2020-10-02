@@ -1,6 +1,6 @@
-FROM erlang:22.0-alpine
+FROM erlang:23.1-alpine
 
-ARG PRECOMPILED_ELIXIR="https://github.com/elixir-lang/elixir/releases/download/v1.10.3/Precompiled.zip"
+ARG PRECOMPILED_ELIXIR="https://github.com/elixir-lang/elixir/releases/download/v1.10.4/Precompiled.zip"
 
 RUN apk add -U --no-cache \
     git build-base wget curl inotify-tools nodejs nodejs-npm \
