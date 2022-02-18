@@ -1,6 +1,6 @@
 FROM erlang:24.0-alpine
 
-ARG PRECOMPILED_ELIXIR="https://github.com/elixir-lang/elixir/releases/download/v1.12.0/Precompiled.zip"
+ARG PRECOMPILED_ELIXIR="https://github.com/elixir-lang/elixir/releases/download/v1.13.3/Precompiled.zip"
 
 RUN apk update && \
     apk add -U --no-cache \
