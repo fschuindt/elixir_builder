@@ -4,6 +4,7 @@ It's a Docker Image aimed to build/compile Elixir applications. **It shall not b
 
 ## Tags
 
+- 1.14.3-opt-25
 - 1.12.0-opt-24
 - 1.10.4-otp-23
 - 1.10.3-otp-22
