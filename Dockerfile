@@ -1,6 +1,6 @@
-FROM erlang:25.2.3-alpine
+FROM erlang:25.3.2.9-alpine
 
-ARG PRECOMPILED_ELIXIR="https://github.com/elixir-lang/elixir/releases/download/v1.14.3/elixir-otp-25.zip"
+ARG PRECOMPILED_ELIXIR="https://github.com/elixir-lang/elixir/releases/download/v1.14.5/elixir-otp-25.zip"
 
 RUN apk update && \
     apk add -U --no-cache \
